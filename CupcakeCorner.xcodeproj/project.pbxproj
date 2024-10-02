@@ -11,6 +11,12 @@
 		18B7686F2C40BB55004793A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7686E2C40BB55004793A4 /* ContentView.swift */; };
 		18B768712C40BB57004793A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B768702C40BB57004793A4 /* Assets.xcassets */; };
 		18B768742C40BB57004793A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B768732C40BB57004793A4 /* Preview Assets.xcassets */; };
+		18B7687B2C410F31004793A4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7687A2C410F30004793A4 /* SwiftUIView.swift */; };
+		18B7687D2C411D1B004793A4 /* DisableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7687C2C411D1B004793A4 /* DisableUIView.swift */; };
+		18B768872C441B72004793A4 /* AppleITuneSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B768862C441B72004793A4 /* AppleITuneSwiftUI.swift */; };
+		18B768892C442255004793A4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B768882C442255004793A4 /* Order.swift */; };
+		18B7688B2C458CCE004793A4 /* AddressUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7688A2C458CCE004793A4 /* AddressUIView.swift */; };
+		18B7688D2C46429F004793A4 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7688C2C46429F004793A4 /* CheckOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		18B7686E2C40BB55004793A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18B768702C40BB57004793A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B768732C40BB57004793A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18B7687A2C410F30004793A4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		18B7687C2C411D1B004793A4 /* DisableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableUIView.swift; sourceTree = "<group>"; };
+		18B768862C441B72004793A4 /* AppleITuneSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleITuneSwiftUI.swift; sourceTree = "<group>"; };
+		18B768882C442255004793A4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		18B7688A2C458CCE004793A4 /* AddressUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressUIView.swift; sourceTree = "<group>"; };
+		18B7688C2C46429F004793A4 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				18B7686C2C40BB55004793A4 /* CupcakeCornerApp.swift */,
 				18B7686E2C40BB55004793A4 /* ContentView.swift */,
+				18B768882C442255004793A4 /* Order.swift */,
+				18B7688A2C458CCE004793A4 /* AddressUIView.swift */,
+				18B7688C2C46429F004793A4 /* CheckOutView.swift */,
+				18B768862C441B72004793A4 /* AppleITuneSwiftUI.swift */,
+				18B7687A2C410F30004793A4 /* SwiftUIView.swift */,
+				18B7687C2C411D1B004793A4 /* DisableUIView.swift */,
 				18B768702C40BB57004793A4 /* Assets.xcassets */,
 				18B768722C40BB57004793A4 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B768892C442255004793A4 /* Order.swift in Sources */,
 				18B7686F2C40BB55004793A4 /* ContentView.swift in Sources */,
 				18B7686D2C40BB55004793A4 /* CupcakeCornerApp.swift in Sources */,
+				18B768872C441B72004793A4 /* AppleITuneSwiftUI.swift in Sources */,
+				18B7687B2C410F31004793A4 /* SwiftUIView.swift in Sources */,
+				18B7688B2C458CCE004793A4 /* AddressUIView.swift in Sources */,
+				18B7688D2C46429F004793A4 /* CheckOutView.swift in Sources */,
+				18B7687D2C411D1B004793A4 /* DisableUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
